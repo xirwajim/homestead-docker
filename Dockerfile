@@ -11,6 +11,8 @@ ADD run.sh /run.sh
 RUN chmod +x /*.sh
 
 RUN ./provision.sh
+WORKDIR  /var/www
 
 EXPOSE 80 22 35729 9876
+
 CMD ["/run.sh"]
