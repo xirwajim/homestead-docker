@@ -149,7 +149,7 @@ block="server {
     listen 80 default_server;
     listen [::]:80 default_server ipv6only=on;
 
-    root /var/www/html;
+    root /var/www/publuc;
     server_name localhost;
 
     index index.html index.htm index.php;
